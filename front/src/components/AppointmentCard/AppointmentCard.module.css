@@ -1,0 +1,33 @@
+.cardContainer {
+    width: 90%;
+    color:aliceblue;
+    margin-block: 10px;
+    display: flex;
+    justify-content: space-around;
+
+    span{
+        flex: 1;
+        background-color: black;
+        color:aliceblue;
+        text-align: center;
+        font-size: 1.6em;
+        .spanCancel {
+            background-color: transparent;
+            font-size: inherit;
+        }
+    }
+}
+
+
+.active {
+    &:hover {
+        color: white;
+        background-color: orangered;
+        cursor: pointer;
+    }
+}
+
+.cancelled {
+    color: red;
+}
+

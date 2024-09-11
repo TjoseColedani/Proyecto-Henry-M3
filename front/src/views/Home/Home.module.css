@@ -1,0 +1,99 @@
+.background {
+    background-image: url('../../assets/img/samuel-girven-2e4lbLTqPIo-unsplash.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.backgroundHome {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    min-height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.containerWelcome {
+    text-align: center; /* Centra el texto dentro del contenedor */
+    max-width: 800px; /* Ancho máximo del contenido */
+    margin: 0 auto 20px; 
+    font-size: 400px;
+}
+
+.servicesSchedule {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    gap: 2rem;
+    text-align: center;
+}
+
+.service {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 15px;
+    box-shadow: 0 0 10px black;
+    padding: 10px;
+}
+
+.service p {
+    line-height: 1;
+}
+
+.schedule {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 15px;
+    box-shadow: 0 0 10px black;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.promotions {
+    display: flex; /* Usa flexbox para dividir en dos columnas */
+    justify-content: space-around; /* Espacia los elementos uniformemente en la fila */
+    margin-bottom: 20px; /* Agrega un margen inferior */
+}
+
+.promos {
+    width: 75%; 
+    text-align: center; 
+    margin: 0 auto 20px; 
+    border-radius: 15px;
+    box-shadow: 0 0 10px black;
+    background-color: rgba(255, 255, 255, 0.6);
+    margin-top: 20px; 
+}
+
+.promos h3 {
+    font-size: 1.7em;
+}
+
+.promo p {
+    font-size: .4em;
+}
+
+.btnRegister {
+    background-color: #7abeec;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 20px 40px;
+    &:hover {
+        background-color: #5cb1e9;
+    }
+}
+
+.ctaContainer {
+    width: 45%; /* Establece el ancho de cada columna */
+    text-align: center; /* Centra el texto dentro del contenedor */
+    max-width: 45%; /* Ancho máximo del contenido */
+    margin: 0 auto 20px; /* Centra el contenedor y agrega margen inferior */
+    border-radius: 15px;
+    box-shadow: 0 0 10px black;
+    margin-top: 40px; /* Agrega un margen superior mayor */
+    margin-bottom: 40px; /* Agrega un margen inferior mayor */
+    padding: 20px; /* Agrega relleno al contenedor */
+    background-color: #7abeec; /* Color de fondo */
+    border-radius: 10px; /* Bordes redondeados */
+}

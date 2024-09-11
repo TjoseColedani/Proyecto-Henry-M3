@@ -1,0 +1,62 @@
+.background {
+    background-image: url('../../assets/img/anastase-maragos-9dzWZQWZMdE-unsplash.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    padding: 20px;
+}
+
+.backgroundRegister {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.form {
+    width: 80vw;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px; /* Añadido para espacio interior */
+}
+
+.form div {
+    display: flex;
+    flex-direction: column; /* Para que los elementos se apilen uno encima del otro */
+    align-items: flex-start; /* Alinea los elementos a la izquierda */
+    width: 100%;
+    margin-bottom: 15px; /* Añade un margen inferior entre cada conjunto de label-input */
+}
+
+.form label {
+    width: 100%; /* El label ocupa todo el ancho del contenedor */
+    font-size: 1.3em;
+    margin-bottom: 5px; /* Añade un espacio entre cada label y su input */
+}
+
+.form input {
+    width: 100%; /* El input ocupa todo el ancho del contenedor */
+    height: 40px; /* Altura fija */
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px; /* Espaciado interior */
+    box-sizing: border-box; /* Para incluir el padding en el ancho */
+}
+
+.form .btn {
+    margin-block: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+}

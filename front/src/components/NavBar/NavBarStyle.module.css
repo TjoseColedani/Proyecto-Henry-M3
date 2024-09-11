@@ -1,0 +1,41 @@
+.nav {
+    background-color: rgb(32, 32, 32);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+.nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    li{
+        color:aliceblue;
+        font-size: 1.8em;
+        list-style: none;
+    }
+    li:hover{
+        color:rgb(134, 198, 253);
+    }
+
+}
+
+.div {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h2{
+        font-size: 4em;
+        color: aliceblue;
+    }
+}
+
